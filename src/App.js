@@ -10,7 +10,7 @@ import io from "socket.io-client"
 import "./App.css"
 
 
-const socket = io.connect('http://localhost:9100')
+const socket = io.connect("http://localhost:9100")
 function App() {
 	const [ me, setMe ] = useState("")
 	const [ stream, setStream ] = useState()
